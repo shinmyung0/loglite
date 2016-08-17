@@ -14,6 +14,8 @@ func TestBasics(t *testing.T) {
 
 	Info("Some info logs")
 	Debug("Some debug logs")
+	SetDebug(false)
+	Debug("Should not show")
 }
 
 func variadic(args ...interface{}) {
