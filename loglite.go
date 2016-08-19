@@ -11,7 +11,7 @@ const (
 	DEBUG = "[DEBUG]"
 )
 
-var debug bool = true
+var debug bool = false
 var ilogger *log.Logger
 var dlogger *log.Logger
 
